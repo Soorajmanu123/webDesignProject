@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+}
+
+header {
+    background-color: #535353;
+    padding: 3%;
+    color: #f0f0f0;
+    height: 50px;
+}
+
+footer {
+    background-color: #535353;
+    padding: 3%;
+}
+
+header h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.nav,
+a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+}
+
+.landing {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+.landing2 {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 82vh;
+}
+
+.btn2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-right: 125px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    animation: topToBottom 1s ease-in-out infinite;
+}
+
+@keyframes topToBottom {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+span {
+    margin-right: 50px;
+}
+
+.titlebox {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgba(82, 81, 81, 0.8);
+    width: fit-content;
+    padding: 30px;
+    border-radius: 0px;
+    position: absolute;
+    top: 25%;
+    color: black;
+}
+
+.titlebox h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+span {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.contact {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100;
+    margin: auto 10px;
+    padding: 50px;
+    border-radius: 0px;
+    color: #535353;
+    position: absolute;
+    top: 25%;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    resize: none;
+}
+
+button {
+    width: 50%;
+    background-color: #535353;
+    color: #f0f0f0;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: #535353;
+    border: 2px solid #535353;
+    transition: 0.5s;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: #535353;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+}
+
+.product img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.producthead {
+    padding-bottom: 40px;
+}
+
+.about p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    line-height: 2;
+}
+
+footer {
+    padding: 3%;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 15px
+}
+
+.address {
+    font-size: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 790px) {
+
+    header h3 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 35px;
+
+    }
+
+    .nav,
+    a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Kanit', sans-serif;
+
+    }
+
+    .landing {
+        background-image: url("./images/bg.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .btn2 {
+        margin-left: 10px;
+        position: absolute;
+        top: 53%;
+        right: 39%;
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: white;
+        border-radius: 20px;
+        padding: 15px;
+        animation: topToBottom 1s ease-in-out infinite;
+
+        @keyframes topToBottom {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+
+        }
+    }
+
+    .titlebox {
+        font-family: 'Kanit', sans-serif;
+        background-color: rgba(82, 81, 81, 0.8);
+        width: fit-content;
+        padding-right: 250px;
+        padding-left: 40px;
+        padding-top: 100px;
+        padding-bottom: 20%;
+        border-radius: 0px;
+        position: absolute;
+        top: 30%;
+        bottom: 20%;
+        left: 34px;
+        color: white;
+    }
+
+    .titlebox h1 {
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+    }
+
+    span {
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    }
+
+    h1 {
+        color: #000000;
+        font-family: 'Kanit', sans-serif;
+        margin-left: 160px;
+
+    }
+
+    .head {
+        margin-right: 200px;
+    }
+
+    .contact {
+        text-align: center;
+        width: 30%;
+        margin: 0 auto;
+        padding: 50px;
+        border-radius: 0px;
+        color: #000000;
+        top: 25%;
+        left: 30%;
+    }
+
+    input {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 50%;
+        height: 150px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 24px;
+        resize: none;
+    }
+
+    button {
+        width: 50%;
+        background-color: #535353;
+        color: #f0f0f0;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #f2f2f2;
+        color: #535353;
+        border: 2px solid #535353;
+        transition: 0.5s;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        padding: 50px;
+        text-align: center;
+        color: #535353;
+        font-family: 'Kanit', sans-serif;
+        font-size: 25px;
+    }
+
+    .product img {
+        width: 300px;
+        height: 300px;
+        border-radius: 0px;
+    }
+
+    .product img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .producthead {
+        padding-bottom: 0px;
+    }
+
+    .about p {
+        padding-top: 10px;
+        padding-left: 200px;
+        padding-right: 300px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        line-height: 2;
+    }
+
+    footer {
+        background-color: #535353;
+        padding: 3%;
+        color: white;
+
+    }
+
+    .address {
+        font-size: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
